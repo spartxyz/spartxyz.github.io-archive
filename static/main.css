@@ -1,0 +1,86 @@
+body {
+  overflow-x: hidden;
+}
+.container {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 80px;
+  line-height: 80px;
+  background-color: white;
+  width: 100%;
+}
+
+.navbar-left {
+  margin-left: 20px;
+  float: left;
+}
+.navbar-right {
+  margin-right: 26px;
+  float: right;
+}
+
+.splash-block-bg {
+  position: absolute;
+  min-height: 80vh;
+  width: 240vw;
+  z-index: -1;
+  border-radius: 0 0 120vw 120vw;
+  left: -70vw;
+  height: 220vh;
+  top: -140vh;
+}
+.splash-block {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 80vh;
+}
+.splash-block-bg {
+  background-color: lightsalmon;
+}
+.splash-content {
+  float: left;
+  width: 50%;
+  margin-top: 25%;
+}
+.splash-graphic {
+  float: right;
+  width: 50%;
+}
+.splash-lower {
+  position: relative;
+  bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.content-block {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 50vh;
+}
+.content-block-left {
+  width: 50%;
+  display: inline-block;
+}
+.content-block-right {
+  width: 50%;
+  float: right;
+  display: inline-block;
+}
+
+.content-block .content-block-center .content-block-title {
+  text-align: center;
+}
+.content-block .content-block-center .content-block-text {
+  padding: 0 30px;
+
+}

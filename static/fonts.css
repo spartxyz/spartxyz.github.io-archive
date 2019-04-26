@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'SourceSans';
+  src: url('SourceSansPro-Regular.ttf');
+}
+
+.navbar-left {
+  font-family: 'SourceSans';
+  font-size: 32px;
+}
+
+.splash-title {
+  font-family: 'SourceSans';
+  font-size: 30px;
+}
+.splash-text {
+  font-family: 'SourceSans';
+  font-size: 24px;
+}
+
+.content-block-title {
+  font-family: 'SourceSans';
+  font-size: 26px;
+}
+.content-block-text {
+  font-family: 'SourceSans';
+  font-size: 22px;
+}
