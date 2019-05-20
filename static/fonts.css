@@ -8,6 +8,11 @@
   font-size: 32px;
 }
 
+.footer-header {
+  font-family: 'SourceSans';
+  font-size: 22px;
+}
+
 .splash-title {
   font-family: 'SourceSans';
   font-size: 30px;
@@ -19,9 +24,22 @@
 
 .content-block-title {
   font-family: 'SourceSans';
-  font-size: 26px;
+  font-size: 22px;
 }
 .content-block-text {
   font-family: 'SourceSans';
-  font-size: 22px;
+  font-size: 20px;
+}
+
+.small-text {
+  font-family: 'SourceSans';
+  font-size: 18px;
+}
+
+.check-out-text {
+  font-family: 'SourceSans';
+  font-size: 18px;
+  color: #f97353;
+  font-weight: 600;
+  letter-spacing: 0.4;
 }

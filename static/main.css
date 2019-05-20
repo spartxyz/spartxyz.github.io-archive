@@ -8,6 +8,39 @@ body {
   min-height: 100vh;
 }
 
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.footer {
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+  padding: 30px 0;
+}
+.footer-header {
+  display: inline-block;
+}
+.footer-header span {
+  position: relative;
+  bottom: 6px;
+  margin-left: 6px;
+}
+.footer .flex-spacer {
+  flex-grow: 1;
+}
+.footer-header img {
+  max-width: 20px;
+}
+.footer-item {
+  color: #f97353;
+  margin: 0 10px;
+}
+
 .navbar {
   height: 90px;
   line-height: 90px;
@@ -34,6 +67,10 @@ body {
   float: right;
   font-weight: 600;
 }
+.navbar-right a {
+  color: white;
+  margin: 0 8px;
+}
 
 .splash-block {
   z-index: -1;
@@ -45,6 +82,7 @@ body {
   height: 600px;
   position: relative;
   top: -20px;
+  margin-bottom: -90px;
   width: calc(100% - 20px);
 }
 .splash-block-bg {
@@ -69,7 +107,7 @@ body {
   width: 46%;
   border-radius: 15px;
   left: 50%;
-  top: -140px;
+  top: -30px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   padding: 3px;
@@ -93,13 +131,6 @@ body {
 .content-block-left,
 .content-block-right {
   border-radius: 15px;
-  padding: 3px;
-}
-.content-block-writing-container {
-  display: inline-block;
-  background-color: white;
-  padding: 0 20px;
-  border-radius: 14px;
 }
 .content-block-center.content-block-writing {
   width: 70%;
@@ -113,8 +144,10 @@ body {
   display: inline-block;
 }
 .content-block-writing {
+  padding: 0 20px;
   width: calc(65% - 40px);
-  background-image: linear-gradient(to bottom right, #F97550, #f3546f);
+  background-color: white;
+  border: 1px solid #e3e3e3;
 }
 .content-block-graphic {
   width: calc(35% - 40px);
@@ -125,6 +158,22 @@ body {
 }
 .content-block .content-block-center .content-block-text {
   padding: 0 30px;
+}
+
+.check-out-the-app {
+  width: 100%;
+  padding: 60px 0;
+  background-color: white;
+}
+.check-out-text {
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+}
+.check-out-the-app .button {
+  position: relative;
+  left: calc(50% - 83px);
+  margin-top: 18px;
 }
 
 .button.action-btn {
