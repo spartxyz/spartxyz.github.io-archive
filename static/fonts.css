@@ -43,3 +43,17 @@
   font-weight: 600;
   letter-spacing: 0.4;
 }
+
+.blog-list-title {
+  font-family: 'SourceSans';
+  font-size: 26px;
+}
+.blog-list-date {
+  font-family: 'SourceSans';
+  font-size: 16px;
+}
+
+.soft-link {
+  font-family: 'SourceSans';
+  color: #f97353;
+}
