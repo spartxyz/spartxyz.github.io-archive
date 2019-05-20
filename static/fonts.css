@@ -26,12 +26,14 @@
   font-family: 'SourceSans';
   font-size: 22px;
 }
-.content-block-text {
+.content-block-text,
+.change-log-section-title {
   font-family: 'SourceSans';
   font-size: 20px;
 }
 
-.small-text {
+.small-text,
+.change-log-item {
   font-family: 'SourceSans';
   font-size: 18px;
 }
@@ -44,11 +46,13 @@
   letter-spacing: 0.4;
 }
 
-.blog-list-title {
+.blog-list-title,
+.change-log-title {
   font-family: 'SourceSans';
   font-size: 26px;
 }
-.blog-list-date {
+.blog-list-date,
+.change-log-date {
   font-family: 'SourceSans';
   font-size: 16px;
 }
