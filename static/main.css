@@ -49,6 +49,7 @@ a:active {
 }
 
 .navbar {
+  z-index: 10;
   height: 90px;
   line-height: 90px;
   width: 100%;
@@ -81,7 +82,6 @@ a:active {
 }
 
 .splash-block {
-  z-index: -1;
   background-image: linear-gradient(to bottom right, #ff9630, #f3546f);
   margin-left: auto;
   margin-right: auto;
@@ -108,6 +108,10 @@ a:active {
 .splash-graphic {
   float: right;
   width: 60%;
+}
+.splash-block a {
+  position: relative;
+  top: 10px;
 }
 
 .app-screenshot {
@@ -170,7 +174,7 @@ a:active {
 
 .check-out-the-app {
   width: 100%;
-  padding: 60px 0;
+  padding: 60px 0 90px 0;
   background-color: white;
 }
 .check-out-text {
@@ -178,10 +182,10 @@ a:active {
   max-width: 400px;
   margin: auto;
 }
-.check-out-the-app .button {
+.check-out-the-app a {
   position: relative;
   left: calc(50% - 83px);
-  margin-top: 18px;
+  top: 30px;
 }
 
 .button.action-btn {
