@@ -43,3 +43,8 @@
   display: inline;
   font-weight: 500;
 }
+
+.blog {
+  margin: auto;
+  max-width: 600px;
+}

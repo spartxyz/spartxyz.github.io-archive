@@ -50,6 +50,7 @@
 .change-log-title {
   font-family: 'SourceSans';
   font-size: 26px;
+  color: #f97353;
 }
 .blog-list-date,
 .change-log-date {
@@ -60,4 +61,32 @@
 .soft-link {
   font-family: 'SourceSans';
   color: #f97353;
+}
+
+.blog-title {
+  font-family: 'SourceSans';
+  font-size: 28px;
+  font-weight: 600;
+  color: #f97353;
+}
+.blog-header {
+  font-family: 'SourceSans';
+  font-size: 26px;
+  font-weight: 600;
+}
+.blog-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.5;
+}
+.blog-preview-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+}
+.blog-bullet {
+  font-family: 'SourceSans';
+  font-size: 18px;
+  font-weight: 600;
 }
