@@ -15,6 +15,9 @@
 .navbar.basic-navbar .navbar-right a {
   color: #f97353;
 }
+.navbar.basic-navbar a.navbar-left {
+  color: #f97353;
+}
 
 .change-log-list {
   margin: auto;
