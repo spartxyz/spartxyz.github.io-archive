@@ -1,220 +1,159 @@
-body {
-  overflow-x: hidden;
-  background-color: #FBFBFB;
-  margin: 0px;
-}
 .container {
-  position: relative;
-  min-height: 100vh;
-}
-.content-container {
-  min-height: calc(100vh - 242px);
+  margin: 3rem auto 0 auto;
+  max-width: 690px;
 }
 
-a {
-  text-decoration: none;
+.logo {
+  display: block;
+  margin: auto;
+  margin-bottom: 4rem;
+  width: 40px;
+}
+
+.punchline {
+  font-size: 40px;
   font-weight: 600;
-}
-a:hover {
-  opacity: 0.7;
-  cursor: pointer;
-}
-a:active {
-  outline: none;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.footer {
-  display: flex;
-  max-width: 800px;
+#mc_embed_signup {
+  display: block;
   margin: auto;
-  padding: 30px 0 20px 0;
-}
-.footer-header {
-  display: inline-block;
-}
-.footer-header span {
+  width: 424px;
   position: relative;
-  bottom: 6px;
-  margin-left: 6px;
 }
-.footer .flex-spacer {
-  flex-grow: 1;
-}
-.footer-header img {
-  max-width: 20px;
-}
-.footer-item {
-  color: #f97353;
-  margin: 0 10px;
-}
-
-.navbar {
-  z-index: 10;
-  height: 90px;
-  line-height: 90px;
-  width: 100%;
-  max-width: 800px;
-  margin: auto;
-  border-radius: 0 0 15px 15px;
-  color: white;
+#mc_embed_signup input.email {
+  width: 280px;
   position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
   top: 0px;
+  display: inline-block;
+  height: 49px;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  border: 1px solid #d9d9d9;
+  /* Overwrite */
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
 }
-
-.navbar-left {
-  float: left;
-  color: white;
-}
-.navbar-left img {
-  max-height: 40px;
-  vertical-align: middle;
-}
-.navbar-right {
-  float: right;
-  font-weight: 600;
-}
-.navbar-right a {
-  color: white;
-  margin: 0 8px;
-}
-
-.splash-block {
-  background-image: linear-gradient(to bottom right, #ff9630, #f3546f);
-  margin-left: auto;
-  margin-right: auto;
-  margin: 10px;
-  border-radius: 15px;
-  height: 600px;
-  position: relative;
-  top: -20px;
-  margin-bottom: -90px;
-  width: calc(100% - 20px);
-}
-.splash-block-bg {
-  background-color: lightsalmon;
-}
-.splash-content {
-  width: 60%;
-  position: relative;
-  top: 190px;
-  margin: auto;
-  max-width: 800px;
-  color: white;
-  font-weight: 600;
-}
-.splash-graphic {
-  float: right;
-  width: 60%;
-}
-.splash-block a {
-  position: relative;
-  top: 10px;
-}
-
-.app-screenshot {
-  position: relative;
-  width: 46%;
-  border-radius: 15px;
-  left: 50%;
-  top: -30px;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  padding: 3px;
-  background-image: linear-gradient(to bottom right, #F97550, #f3546f);
-}
-
-.container .content-block:first-of-type {
-  position: relative;
-  top: 470px;
-}
-.content-block {
-  position: relative;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding: 20px;
-}
-.content-block-center,
-.content-block-left,
-.content-block-right {
-  border-radius: 15px;
-}
-.content-block-center.content-block-writing {
-  width: 70%;
-  margin: auto;
-}
-.content-block-left {
+#mc_embed_signup div.clear {
   display: inline-block;
 }
-.content-block-right {
+#mc_embed_signup div.clear input.button {
+  width: 166px;
+  position: absolute;
+  top: 0px;
+  left: 286px;
+  background-color: #F97353;
+  border-radius: 10px;
+  padding: 11px 24px;
+  color: white;
+  font-size: 20px;
+  height: 49px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  /* Overwrite default */
+  outline: none;
+  border: none;
+  -webkit-appearance: none;
+}
+input.button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.icon-bar {
+  margin-top: 140px;
   position: relative;
   display: inline-block;
+  left: calc(50% - 500px);
 }
-.content-block-writing {
-  padding: 0 20px;
-  width: calc(65% - 40px);
-  background-color: white;
-  border: 1px solid #e3e3e3;
-}
-.content-block-graphic {
-  width: calc(35% - 40px);
+.icon-bar img {
+  width: 1000px;
+  box-shadow: 0px 2px 44px 0px rgba(0, 0, 0, 0.1);
 }
 
-.content-block .content-block-center .content-block-title {
-  text-align: center;
+.features {
+  margin-top: 120px;
 }
-.content-block .content-block-center .content-block-text {
-  padding: 0 30px;
+.feature {
+  width: 29%;
+  display: inline-block;
+  margin: 0 2%;
 }
-
-.check-out-the-app {
-  width: 100%;
-  padding: 60px 0 90px 0;
-  background-color: white;
-}
-.check-out-text {
-  text-align: center;
-  max-width: 400px;
+.feature-icon {
+  display: block;
   margin: auto;
+  margin-bottom: 12px;
+  text-align: center;
 }
-.check-out-the-app a {
-  position: relative;
-  left: calc(50% - 83px);
-  top: 30px;
+.feature-title {
+  font-size: 20px;
+  color: #1b1b1b;
+  margin-bottom: 12px;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.feature-description {
+  font-size: 16px;
+  color: #69636b;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.button.action-btn {
-  text-decoration: none;
-  padding: .78571429em 1.5em .78571429em;
-  border-radius: .28571429rem;
-  border: 2px solid #f97353;
-  color: #f97353;
-  background-color: white;
-  font-weight: 600;
+.footer-icon {
+  margin: auto;
+  display: block;
+  margin-top: 120px;
+  margin-bottom: 80px;
+  width: 40px;
 }
-.button.action-btn:hover {
-  cursor: pointer;
-  border: 2px solid #f97353;
-  box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, .25);
-  background-color: white;
-  color: #f97353;
-}
-.button.action-btn:focus {
-  cursor: pointer;
-  border: 2px solid #f97353;
-  box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, .25);
-  background-color: white;
-  color: #f97353;
-}
-.button.action-btn:active {
-  cursor: pointer;
-  border: 2px solid #f97353;
-  background-color: white;
-  box-shadow: none;
-  color: #f97353;
+
+@media only screen and (max-width: 720px) {
+  .container {
+    padding: 0 40px;
+  }
+  .punchline {
+    font-size: 24px;
+  }
+
+  #mc_embed_signup {
+    width: 100%;
+  }
+  #mc_embed_signup input.email {
+    display: block;
+    left: 0px;
+    width: 100%;
+  }
+  #mc_embed_signup div.clear {
+    display: block;
+  }
+  #mc_embed_signup div.clear input.button {
+    top: 56px;
+    left: 0px;
+    width: 100%;
+  }
+
+  .icon-bar {
+    margin-top: 10rem;
+    left: calc(50% - 155px);
+  }
+
+  .features {
+    margin-top: 3rem;
+  }
+  .feature {
+    display: block;
+    width: 100%;
+    max-width: 190px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  .footer-icon {
+    margin-top: 80px;
+  }
 }
