@@ -114,10 +114,10 @@ input.button:hover {
 
 @media only screen and (max-width: 1120px) {
   .icon-bar {
-    left: 5%;
+    left: 0px;
   }
   .icon-bar img {
-    width: 90%;
+    width: 100%;
   }
 }
 
