@@ -14,25 +14,26 @@
   font-size: 40px;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 2rem;
+  letter-spacing: 1;
+  margin-bottom: 3rem;
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
 #mc_embed_signup {
   display: block;
   margin: auto;
-  width: 424px;
+  width: 484px;
   position: relative;
 }
 #mc_embed_signup input.email {
-  width: 280px;
+  width: 340px;
   position: absolute;
   top: 0px;
   display: inline-block;
   height: 49px;
   padding: 12px;
-  font-size: 18px;
-  border-radius: 8px;
+  font-size: 17px;
+  border-radius: 4px;
   font-family: 'IBM Plex Sans', sans-serif;
   border: 1px solid #d9d9d9;
   /* Overwrite */
@@ -47,17 +48,17 @@
   width: 166px;
   position: absolute;
   top: 0px;
-  left: 286px;
-  background-color: #F97353;
-  border-radius: 10px;
+  left: 346px;
+  background-color: white;
+  border: 1px solid #F97353;
+  border-radius: 5px;
   padding: 11px 24px;
-  color: white;
-  font-size: 20px;
+  color: #1B1B1B;
+  font-size: 17px;
   height: 49px;
   font-family: 'IBM Plex Sans', sans-serif;
   /* Overwrite default */
   outline: none;
-  border: none;
   -webkit-appearance: none;
 }
 input.button:hover {
@@ -104,11 +105,30 @@ input.button:hover {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
+.social {
+  margin-bottom: 120px;
+  display: flex;
+  width: 102px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-icon {
+  flex-grow: 1;
+  margin: 0 5px;
+}
+.social-icon i {
+  font-size: 24px;
+  color: #69636b;
+}
+.social-icon i:hover {
+  color: #1b1b1b;
+}
+
 .footer-icon {
   margin: auto;
   display: block;
   margin-top: 120px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   width: 40px;
 }
 
@@ -163,5 +183,9 @@ input.button:hover {
 
   .footer-icon {
     margin-top: 80px;
+  }
+
+  .social {
+    margin-bottom: 80px;
   }
 }
